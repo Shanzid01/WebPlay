@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebPlay</title>
+    <link rel="icon" href="favicon.ico">
+    <script type="text/javascript" src="words_shorter.js"></script>
+    <script type="text/javascript" src="code.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="bodyLoaded()">
+    <div class="grad-background"></div>
+    <div class="row mainbody">
+        <div class="col l6 m6 s12 offset-l3 offset-m3">
+            <div class="card white darken-1 z-depth-4">
+            <div class="card-content center">
+                <span class="card-title"><h1>🤷‍♂️</h1></span>
+                <div class="row">
+                <div class="input-field col s10 offset-s1">
+                    <input id="value_in" type="text">
+                    <label for="value_in">Letters</label>
+                </div>
+                </div>
+                <div class="row">
+                <div class="input-field col s8 offset-s1">
+                    <input id="output_len" type="number">
+                    <label for="value_in">Spaces</label>
+                </div>
+                <div class="input-field col s2">
+                    <button class="btn-floating  waves-effect waves-yellow white circle" onclick="initvars()" name="action">🔍</button>
+                </div>
+                </div>
+                <div class="row">
+                    <p id="results"></p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100423949-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-100423949-5');
+    </script>
+</body>
+</html>
