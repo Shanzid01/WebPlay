@@ -1,6 +1,6 @@
 # WebPlay
 
-See demo at: https://shanzid.com/proj/WebPlay/index.html
+See demo at: https://webplay.shanzid.com/
 
 A new and refined website version of the Android app WordPlay.
 The program takes two inputs:
